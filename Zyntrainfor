@@ -1,0 +1,75 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Zyntra Online</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+
+      /* IMAGEM DE FUNDO */
+      background: url('https://www.dropbox.com/scl/fi/cwfplzaucuassgf83av2n/IMG_20260209_205141.png?raw=1') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.7);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      color: #ccc;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: #5865F2;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #4752c4;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="overlay">
+    <h1>Zyntra Roleplay</h1>
+
+    <p>
+      Zyntra Roleplay, o melhor servidor de Los Angeles Crimes online, 
+      zyntra sempre inovando dentro da comunidade de LAC online, 
+      venha fazer parte do zyntra, junte-se a nós
+    </p>
+
+    <a class="btn" href="https://discord.gg/vnEUbxx9P" target="_blank">
+      Entrar no Discord
+    </a>
+  </div>
+
+</body>
+</html>
